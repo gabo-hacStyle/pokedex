@@ -1,6 +1,6 @@
 import {Input} from 'antd';
 
 const Searcher = () => {
-    return <Input.Search plaeholder='Buscar' />
+    return <Input.Search placeholder='Buscar' />
 }
-export { Searcher}
+export { Searcher};
