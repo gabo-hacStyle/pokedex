@@ -1,7 +1,6 @@
 import { Card } from "antd"
 import { StarOutlined } from '@ant-design/icons'
 import Meta from 'antd/lib/card/Meta'
-//import { icons } from "antd/es/image/PreviewGroup"
 
 const PokemonCard = ({name, image, abilities}) => {
     return (
