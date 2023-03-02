@@ -3,7 +3,8 @@ import {
     SET_NUMBERS, 
     SET_POKEMONS,
     LESS_NUMBERS,
-    SET_LOADING
+    SET_LOADING,
+    SET_FAVORITE
 } from "./types";
 
 export const setPokemons = (payload) => ({
@@ -31,5 +32,10 @@ export const lessNumbers = (payload) => ({
 
 export const setLoading = (payload) => ({
     type: SET_LOADING,
+    payload
+})
+
+export const setFavorite = (payload) => ({
+    type: SET_FAVORITE, 
     payload
 })
