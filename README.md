@@ -5,3 +5,5 @@ You will be able to see their abilities and how they look so you won't have any 
 
 ## Personal use
 I developed this App in order to learn and apply the uses of Redux, a React package used to manage the global state.  
+
+### Built with Vite.js
